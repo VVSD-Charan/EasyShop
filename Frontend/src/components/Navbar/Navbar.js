@@ -223,12 +223,12 @@ export default function Navbar() {
                       <img
                         className=" pt-2 w-auto"
                         style={{
-                          height: '90px',
+                          height: '60px',
                           width: '170px',
-                          marginTop: '10px',
+                          
                         }}
                         src={logo}
-                        alt="i-novotek logo"
+                        alt="easyShop logo"
                       />
                     </Link>
                   </div>
@@ -269,9 +269,9 @@ export default function Navbar() {
                                   to={`/products-filters?category=${category?.name}`}
                                   className="flex items-center text-sm font-medium text-gray-700 hover:text-gray-800"
                                   style={{
-                                    fontSize: '17px',
+                                    fontSize: '18px',
                                     textTransform: 'capitalize',
-                                    margin: '40px 10px',
+                                    margin: '37px 10px',
                                   }}
                                 >
                                   {category?.name}
@@ -300,7 +300,7 @@ export default function Navbar() {
                     <img
                       className="h-32"
                       src={logo}
-                      alt="i-novotek logo"
+                      alt="easyShop logo"
                       style={{
                         height: '60px',
                         width: '110px',
@@ -392,7 +392,7 @@ export default function Navbar() {
         <div
           style={{
             marginTop: '20px',
-            background: '#1B6B93',
+            background: '#164B60',
             marginBottom: '3px',
             padding: '10px',
           }}
