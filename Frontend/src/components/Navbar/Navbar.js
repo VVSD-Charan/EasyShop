@@ -8,7 +8,7 @@ import {
 } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
 import baseURL from '../../utils/baseURL'
-import logo from './logo.png'
+import logo from './easyshop.jpg'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchCategoriesAction } from '../../redux/slices/categories/categoriesSlice'
 import { getCartItemsFromLocalStorageAction } from '../../redux/slices/cart/cartSlices'
@@ -224,7 +224,7 @@ export default function Navbar() {
                         className=" pt-2 w-auto"
                         style={{
                           height: '90px',
-                          width: '130px',
+                          width: '170px',
                           marginTop: '10px',
                         }}
                         src={logo}
@@ -320,7 +320,7 @@ export default function Navbar() {
                     {user?.userFound?.isAdmin && (
                       <Link
                         to="/admin"
-                        className="inline-flex items-center rounded-md border border-transparent bg-red-500 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                        className="inline-flex items-center rounded-md border border-transparent bg-red-800 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                       >
                         Admin Dashboard
                       </Link>
