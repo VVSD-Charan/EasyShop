@@ -18,9 +18,9 @@ export default function OrdersStats() {
     <div>
       <dl className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {/* Today's sales */}
-        <div className="relative overflow-hidden rounded-lg px-4 pt-5 pb-12 shadow sm:px-6 sm:pt-6" style={{background:'#F86F03'}}>
+        <div className="relative overflow-hidden rounded-lg px-4 pt-5 pb-12 shadow sm:px-6 sm:pt-6" style={{background:'#4A55A2'}}>
           <dt>
-            <div className="absolute rounded-md p-3" style={{background:'#FF8551'}}>
+            <div className="absolute rounded-md p-3" style={{background:'#7895CB'}}>
               <svg
                 className="h-6 w-6 text-white"
                 fill="none"
@@ -45,15 +45,15 @@ export default function OrdersStats() {
               {stats?.saleToday?.length <= 0 ? '₹0.00' : 0}
             </p>
 
-            <div className="absolute inset-x-0 bottom-0  px-4 py-4 sm:px-6" style={{background:'#E8AA42'}}>
+            <div className="absolute inset-x-0 bottom-0  px-4 py-4 sm:px-6" style={{background:'#7895CB'}}>
               <div className="text-sm"></div>
             </div>
           </dd>
         </div>
         {/* stat 1 */}
-        <div className="relative overflow-hidden rounded-lg px-4 pt-5 pb-12 shadow sm:px-6 sm:pt-6" style={{background:'#F86F03'}}>
+        <div className="relative overflow-hidden rounded-lg px-4 pt-5 pb-12 shadow sm:px-6 sm:pt-6" style={{background:'#FF6666'}}>
           <dt>
-            <div className="absolute rounded-md p-3" style={{background:'#FF8551'}}>
+            <div className="absolute rounded-md p-3" style={{background:'#FCAEAE'}}>
               <svg
                 className="h-6 w-6 text-white"
                 fill="none"
@@ -78,15 +78,15 @@ export default function OrdersStats() {
               ₹{statistics[1]}
             </p>
 
-            <div className="absolute inset-x-0 bottom-0 px-4 py-4 sm:px-6" style={{background:'#E8AA42'}}>
+            <div className="absolute inset-x-0 bottom-0 px-4 py-4 sm:px-6" style={{background:'#FCAEAE'}}>
               <div className="text-sm"></div>
             </div>
           </dd>
         </div>
         {/* stat 2 */}
-        <div className="relative overflow-hidden rounded-lg px-4 pt-5 pb-12 shadow sm:px-6 sm:pt-6" style={{background:'#F86F03'}}>
+        <div className="relative overflow-hidden rounded-lg px-4 pt-5 pb-12 shadow sm:px-6 sm:pt-6" style={{background:'#0A6EBD'}}>
           <dt>
-            <div className="absolute rounded-md p-3" style={{background:'#FF8551'}}>
+            <div className="absolute rounded-md p-3" style={{background:'#A1C2F1'}}>
               <svg
                 className="h-6 w-6 text-white"
                 fill="none"
@@ -111,15 +111,15 @@ export default function OrdersStats() {
               ₹{statistics[3]}
             </p>
 
-            <div className="absolute inset-x-0 bottom-0 px-4 py-4 sm:px-6" style={{background:'#E8AA42'}}>
+            <div className="absolute inset-x-0 bottom-0 px-4 py-4 sm:px-6" style={{background:'#A1C2F1'}}>
               <div className="text-sm"></div>
             </div>
           </dd>
         </div>
         {/* stat 3 */}
-        <div className="relative overflow-hidden rounded-lg  px-4 pt-5 pb-12 shadow sm:px-6 sm:pt-6" style={{background:'#F86F03'}}>
+        <div className="relative overflow-hidden rounded-lg  px-4 pt-5 pb-12 shadow sm:px-6 sm:pt-6" style={{background:'#643843'}}>
           <dt>
-            <div className="absolute rounded-md  p-3" style={{background:'#FF8551'}}>
+            <div className="absolute rounded-md  p-3" style={{background:'#C88EA7'}}>
               <svg
                 className="h-6 w-6 text-white"
                 fill="none"
@@ -145,7 +145,7 @@ export default function OrdersStats() {
               ₹{statistics[2]}
             </p>
 
-            <div className="absolute inset-x-0 bottom-0  px-4 py-4 sm:px-6" style={{background:'#E8AA42'}}>
+            <div className="absolute inset-x-0 bottom-0  px-4 py-4 sm:px-6" style={{background:'#C88EA7'}}>
               <div className="text-sm"></div>
             </div>
           </dd>

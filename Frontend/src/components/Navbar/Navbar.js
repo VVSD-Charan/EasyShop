@@ -320,8 +320,8 @@ export default function Navbar() {
                     {user?.userFound?.isAdmin && (
                       <Link
                         to="/admin"
-                        className="inline-flex items-center rounded-md border border-transparent bg-red-800 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-                      >
+                        className="inline-flex items-center rounded-md border border-transparent px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                        style={{background:'#FF0060'}}>
                         Admin Dashboard
                       </Link>
                     )}
