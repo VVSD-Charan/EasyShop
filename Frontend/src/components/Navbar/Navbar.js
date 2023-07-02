@@ -392,7 +392,7 @@ export default function Navbar() {
         <div
           style={{
             marginTop: '20px',
-            background: '#0E2954',
+            background: '#1B6B93',
             marginBottom: '3px',
             padding: '10px',
           }}

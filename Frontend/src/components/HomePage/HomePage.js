@@ -78,7 +78,7 @@ export default function Example() {
                         className="inline-block rounded-md border border-transparent bg-indigo-600 py-3 px-8 font-medium text-white hover:bg-indigo-700"
                         style={{ background: '#CD1818', alignItems: 'center' }}
                       >
-                        Shop Productivity
+                        All products
                       </a>
                     </div>
                   </div>
