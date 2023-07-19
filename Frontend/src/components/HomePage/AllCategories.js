@@ -21,10 +21,10 @@ const AllCategories = () => {
         <div className="mx-auto max-w-7xl py-12 px-4 text-center sm:px-6 lg:py-16 lg:px-8">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             <span className="block">
-              Total Categories [{categories?.length}]
+            {categories?.length} Total Categories Available
             </span>
           </h2>
-          <p>Browse our categories and find the best products for you.</p>
+          <p style={{marginTop:'18px', fontSize:'17px'}}>Browse our categories and find the best products for you.</p>
         </div>
       </div>
       <div className="mt-4 flow-root">
