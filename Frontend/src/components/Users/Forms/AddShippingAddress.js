@@ -38,6 +38,7 @@ const AddShippingAddress = () => {
     console.log(formData)
     e.preventDefault()
     dispatch(updateUserShippingAddressAction(formData))
+    window.location.reload()
   }
 
   return (

@@ -404,7 +404,7 @@ export default function Navbar() {
             >
               {currentCoupon
                 ? `${currentCoupon?.code}- ${currentCoupon?.discount}% , ${currentCoupon?.daysLeft}`
-                : 'No Flash sale at moment'}
+                : 'No Flash sale at the moment'}
             </p>
 
             <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6"></div>
