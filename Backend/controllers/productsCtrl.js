@@ -67,7 +67,6 @@ export const createProductCtrl = asyncHandler(async (req, res) => {
 // @access  Public
 
 export const getProductsCtrl = asyncHandler(async (req, res) => {
-  console.log(req.query)
   //query
   let productQuery = Product.find()
 
@@ -118,7 +117,7 @@ export const getProductsCtrl = asyncHandler(async (req, res) => {
   //page
   const page = parseInt(req.query.page) ? parseInt(req.query.page) : 1
   //limit
-  const limit = parseInt(req.query.limit) ? parseInt(req.query.limit) : 10
+  const limit = parseInt(req.query.limit) ? parseInt(req.query.limit) : 100
   //startIdx
   const startIndex = (page - 1) * limit
   //endIdx
