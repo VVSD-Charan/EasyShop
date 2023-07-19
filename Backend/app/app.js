@@ -39,9 +39,7 @@ app.post(
 
     try {
       event = stripe.webhooks.constructEvent(request.body, sig, endpointSecret)
-      console.log('event')
     } catch (err) {
-      console.log('err', err.message)
       response.status(400).send(`Webhook Error: ${err.message}`)
       return
     }
@@ -66,7 +64,6 @@ app.post(
           new: true,
         }
       )
-      console.log(order)
     } else {
       return
     }
@@ -86,14 +83,14 @@ app.use(express.static('public'))
 app.get('/', (req, res) => {
   res.sendFile(path.join('public', 'index.html'))
 })
-app.use('/api/TrendCart/users/', userRoutes)
-app.use('/api/TrendCart/products/', productsRouter)
-app.use('/api/TrendCart/categories/', categoriesRouter)
-app.use('/api/TrendCart/brands/', brandsRouter)
-app.use('/api/TrendCart/colors/', colorRouter)
-app.use('/api/TrendCart/reviews/', reviewRouter)
-app.use('/api/TrendCart/orders/', orderRouter)
-app.use('/api/TrendCart/coupons/', couponsRouter)
+app.use('/EasyShop/users/', userRoutes)
+app.use('/EasyShop/products/', productsRouter)
+app.use('/EasyShop/categories/', categoriesRouter)
+app.use('/EasyShop/brands/', brandsRouter)
+app.use('/EasyShop/colors/', colorRouter)
+app.use('/EasyShop/reviews/', reviewRouter)
+app.use('/EasyShop/orders/', orderRouter)
+app.use('/EasyShop/coupons/', couponsRouter)
 //err middleware
 app.use(notFound)
 app.use(globalErrhandler)

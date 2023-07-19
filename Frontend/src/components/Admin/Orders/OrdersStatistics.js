@@ -42,7 +42,7 @@ export default function OrdersStats() {
           </dt>
           <dd className="ml-16 flex items-baseline pb-6 sm:pb-7" style={{marginTop:'15px'}}>
             <p className="font-semibold text-gray-200" style={{fontSize:'35px'}}>
-              {stats?.saleToday?.length <= 0 ? '₹0.00' : 0}
+              {stats?.saleToday?.length <= 0 ? '0' : stats?.saleToday?.length}
             </p>
 
             <div className="absolute inset-x-0 bottom-0  px-4 py-4 sm:px-6" style={{background:'#7895CB'}}>
