@@ -34,34 +34,25 @@ const sortOptions = [
 
 const allPrice = [
   {
-    amount: '0 - 750',
+    amount: '0 - 1000',
   },
   {
-    amount: '750 - 1500',
+    amount: '1000 - 2000',
   },
   {
-    amount: '1500 - 2250',
+    amount: '2000 - 4000',
   },
   {
-    amount: '2250 - 3000',
+    amount: '4000 - 6000',
   },
   {
-    amount: '3000 - 3750',
+    amount: '6000 - 10000',
   },
   {
-    amount: '3750 - 4500',
+    amount: '10000 - 20000',
   },
   {
-    amount: '4500 - 5250',
-  },
-  {
-    amount: '5250 - 6000',
-  },
-  {
-    amount : '6000 - 7000',
-  },
-  {
-    amount : '7000 - 10000'
+    amount: '20000 - 100000',
   }
 ]
 
@@ -443,7 +434,7 @@ export default function ProductsFilters() {
                                     type="radio"
                                     className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                   />
-                                  <label className="ml-3 min-w-0 flex-1 text-gray-500">
+                                  <label className="ml-3 min-w-0 flex-1 text-gray-500" style={{textTransform:'capitalize'}}>
                                     {brand?.name}
                                   </label>
                                 </div>
@@ -744,7 +735,7 @@ export default function ProductsFilters() {
                                 type="radio"
                                 className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
                               />
-                              <label className="ml-3 min-w-0 flex-1 text-gray-500">
+                              <label className="ml-3 min-w-0 flex-1 text-gray-500"  style={{textTransform:'capitalize'}}>
                                 {brand?.name}
                               </label>
                             </div>
