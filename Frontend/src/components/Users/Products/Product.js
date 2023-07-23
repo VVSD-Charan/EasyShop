@@ -181,8 +181,10 @@ export default function Product() {
                 style={{ textTransform: 'capitalize', fontSize: '25px' }}
               >
                 {product?.name}
-              </h1>
-              <p className="text-xl font-medium text-gray-900">
+              </h1> 
+            </div>
+            <div>
+            <p className="text-xl font-medium text-gray-900">
                 ₹ {product?.price}.00
               </p>
             </div>
