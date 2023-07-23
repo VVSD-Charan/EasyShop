@@ -1,6 +1,6 @@
 # EasyShop
 
-## EasyShop is a user-friendly E-commerce application that empowers users to effortlessly browse and buy products through a seamless shopping experience. By offering intuitive navigation through categories and flexible filters such as color, price range, size, and brand, EasyShop ensures customers can quickly find and purchase exactly what they need with utmost convenience.
+## EasyShop is a friendly online shopping app that helps you easily find and buy products. It's designed to make your shopping experience smooth and effortless. You can explore different categories and use filters like color, price, size, and brand to quickly find exactly what you want to buy. It's all about making your shopping convenient and enjoyable.
 
 ### Technologies used : 
 <ul>
