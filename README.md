@@ -38,11 +38,30 @@
 ![image](https://github.com/VVSD-Charan/EasyShop/assets/105978561/6ad409ef-617f-496b-97d4-28cac8de0943)
 
 #### Admin Dashboard
+
 ![image](https://github.com/VVSD-Charan/EasyShop/assets/105978561/34b677ea-1549-44bf-a40e-93617e6de05c)
+
 ##### Add products page (Admin)
+
 ![image](https://github.com/VVSD-Charan/EasyShop/assets/105978561/b5f02e68-6774-4209-b8a6-e20404aa8762)
+
 ##### Manage products stock (Admin)
+
 ![image](https://github.com/VVSD-Charan/EasyShop/assets/105978561/c2d9298e-849e-42aa-b2a7-f357158b75d9)
+
+##### Add coupons page (Admin)
+
+![image](https://github.com/VVSD-Charan/EasyShop/assets/105978561/86fdf8e9-8a13-4f80-a2c9-0e0577398b9e)
+
+##### All categories page (Admin dashboard)
+
+![image](https://github.com/VVSD-Charan/EasyShop/assets/105978561/fee7f8c3-3d2d-4584-a665-88078d2c1a61)
+
+##### All brands page (Admin dashboard)
+
+![image](https://github.com/VVSD-Charan/EasyShop/assets/105978561/13e38e39-bf3c-4c49-b84b-c0089e3ce9a8)
+
+
 
 #### Log-in page
 ![image](https://github.com/VVSD-Charan/EasyShop/assets/105978561/70008d51-31af-4b16-9275-e3d6f4a01b1d)
