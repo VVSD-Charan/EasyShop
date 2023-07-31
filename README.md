@@ -2,6 +2,8 @@
 
 ## EasyShop is a friendly online shopping app that helps you easily find and buy products. It's designed to make your shopping experience smooth and effortless. You can explore different categories and use filters like color, price, size, and brand to quickly find exactly what you want to buy. It's all about making your shopping convenient and enjoyable.
 
+Click <a href="https://docs.google.com/presentation/d/1YLva10v9jhPlpWXKgxbBNKJ_Y08ItV7l/edit?usp=drive_link&ouid=100759929152238592141&rtpof=true&sd=true" target="_blank">here</a> for details about technologies used and their features. 
+
 ### Technologies used : 
 <ul>
   <li>React.JS</li>
