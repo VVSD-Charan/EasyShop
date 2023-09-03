@@ -32,6 +32,9 @@ export default function AddReview() {
         rating: formData.rating,
       })
     );
+    setTimeout(function(){
+      window.location.reload();
+   }, 3000);
   };
 
   //get data from store

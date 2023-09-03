@@ -66,11 +66,6 @@ export default function OrdersList() {
                 <th
                   scope="col"
                   className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
-                  Delivery Date
-                </th>
-                <th
-                  scope="col"
-                  className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
                   Status
                 </th>
 
@@ -93,7 +88,7 @@ export default function OrdersList() {
                 {orders?.map((order) => (
                   <tr key={order._id}>
                     <td className="w-full max-w-0 py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:w-auto sm:max-w-none sm:pl-6">
-                      {order.orderNumber}
+                      {order._id}
                     </td>
                     <td className="hidden px-3 py-4 text-sm text-gray-500 lg:table-cell">
                       {order.paymentStatus === "Not paid" ? (
@@ -106,9 +101,6 @@ export default function OrdersList() {
                     </td>
                     <td className="hidden px-3 py-4 text-sm text-gray-500 lg:table-cell">
                       {new Date(order?.createdAt).toLocaleDateString()}
-                    </td>
-                    <td className="hidden px-3 py-4 text-sm text-gray-500 lg:table-cell">
-                      Unknown
                     </td>
                     <td className="hidden px-3 py-4 text-sm text-gray-500 sm:table-cell">
                       {order?.status}
